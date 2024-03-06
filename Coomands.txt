@@ -1,0 +1,12 @@
+first of all made changes in the git gub to push the code in git hub then
+ git add .
+ git commit -m "Code Updated"
+ git push origin main/ master // as per your branch
+ /// git branch ( it shows the status  master or main)
+ git pull origin master/ main
+
+
+ /// clone the project ot git hub
+ // git  branch
+
+ then use /// simply git pull origin main  ( code from git hub will be merged)
