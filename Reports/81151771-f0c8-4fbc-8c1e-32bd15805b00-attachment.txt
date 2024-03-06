@@ -1,0 +1,25 @@
+Log In - Zoobook
+An unexpected error occurred during the View Client test: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF79FC14D02+56194]
+	(No symbol) [0x00007FF79FB804B2]
+	(No symbol) [0x00007FF79FA276AA]
+	(No symbol) [0x00007FF79FA00AFD]
+	(No symbol) [0x00007FF79FA9C9AB]
+	(No symbol) [0x00007FF79FAB201F]
+	(No symbol) [0x00007FF79FA95C23]
+	(No symbol) [0x00007FF79FA64A45]
+	(No symbol) [0x00007FF79FA65AD4]
+	GetHandleVerifier [0x00007FF79FF8D5BB+3695675]
+	GetHandleVerifier [0x00007FF79FFE6197+4059159]
+	GetHandleVerifier [0x00007FF79FFDDF63+4025827]
+	GetHandleVerifier [0x00007FF79FCAF029+687785]
+	(No symbol) [0x00007FF79FB8B508]
+	(No symbol) [0x00007FF79FB87564]
+	(No symbol) [0x00007FF79FB876E9]
+	(No symbol) [0x00007FF79FB78094]
+	BaseThreadInitThunk [0x00007FFB5DA3257D+29]
+	RtlUserThreadStart [0x00007FFB5FACAA58+40]
+

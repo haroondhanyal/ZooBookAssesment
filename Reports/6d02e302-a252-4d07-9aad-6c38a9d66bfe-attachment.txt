@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "C:\Users\rajah\PycharmProjects\ProjectZoobook\testcases\test_assessment.py", line 93, in test_verify_client_status
+    client_page.login(username, password)
+  File "C:\Users\rajah\PycharmProjects\projectzoobook\pages\Client_general_information_pages.py", line 22, in login
+    username_input = WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.USERNAME_INPUT))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rajah\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\support\wait.py", line 86, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rajah\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 81, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rajah\AppData\Local\Programs\Python\Python312\Lib\site-packages\seleniumbase\core\sb_driver.py", line 19, in find_element
+    return self.driver.default_find_element(by=by, value=value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rajah\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 738, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rajah\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 344, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\rajah\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=120.0.6099.71)
+Stacktrace:
+	GetHandleVerifier [0x00007FF79FC14D02+56194]
+	(No symbol) [0x00007FF79FB804B2]
+	(No symbol) [0x00007FF79FA276AA]
+	(No symbol) [0x00007FF79FA00AFD]
+	(No symbol) [0x00007FF79FA9C9AB]
+	(No symbol) [0x00007FF79FAB201F]
+	(No symbol) [0x00007FF79FA95C23]
+	(No symbol) [0x00007FF79FA64A45]
+	(No symbol) [0x00007FF79FA65AD4]
+	GetHandleVerifier [0x00007FF79FF8D5BB+3695675]
+	GetHandleVerifier [0x00007FF79FFE6197+4059159]
+	GetHandleVerifier [0x00007FF79FFDDF63+4025827]
+	GetHandleVerifier [0x00007FF79FCAF029+687785]
+	(No symbol) [0x00007FF79FB8B508]
+	(No symbol) [0x00007FF79FB87564]
+	(No symbol) [0x00007FF79FB876E9]
+	(No symbol) [0x00007FF79FB78094]
+	BaseThreadInitThunk [0x00007FFB5DA3257D+29]
+	RtlUserThreadStart [0x00007FFB5FACAA58+40]
+
